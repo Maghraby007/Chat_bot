@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "good day",
+        "good morning",
+        "good evening",
+        "hola",
+        "What's up",
+        "hi",
+        "how are you"
+      ],
+      "responses": [
+        "Hello!",
+        "Hey there",
+        "Hi, how can I help you"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "cya",
+        "later",
+        "see you",
+        "cu",
+        "goodbye"
+      ],
+      "responses": [
+        "goodbye",
+        "glad to help you in any time",
+        "till we meet again"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "opening hours?",
+        "when do you open?",
+        "when do you close?",
+        "working hours?",
+        "closing time?"
+      ],
+      "responses": [
+        "from working hours from 9:00 AM - 10:00 PM"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what's your name?",
+        "what should I call you?",
+        "what is your name?"
+      ],
+      "responses": [
+        "you can call me bot",
+        "my name is bot"
+      ]
+    }
+  ]
+}
